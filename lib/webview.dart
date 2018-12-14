@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
-class WebViewExample extends StatefulWidget {
+class game extends StatefulWidget {
   @override
-  _WebViewExampleState createState() => _WebViewExampleState();
+  _gameState createState() => _gameState();
 }
 
-class _WebViewExampleState extends State<WebViewExample> {
+class _gameState extends State<game> {
   FlutterWebviewPlugin flutterWebviewPlugin = FlutterWebviewPlugin();
 
   @override

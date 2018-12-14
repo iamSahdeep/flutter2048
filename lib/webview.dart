@@ -10,15 +10,6 @@ class _WebViewExampleState extends State<WebViewExample> {
   FlutterWebviewPlugin flutterWebviewPlugin = FlutterWebviewPlugin();
 
   @override
-  void initState() {
-    super.initState();
-
-    flutterWebviewPlugin.onStateChanged.listen((WebViewStateChanged wvs) {
-      print(wvs.type);
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
     return WebviewScaffold(
       url: 'file:///android_asset/index.html',

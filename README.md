@@ -8,6 +8,7 @@
 ## Plugins Used
   - <a href="https://github.com/fluttercommunity/flutter_webview_plugin"> flutter_webview_plugin </a> for webView
   - <a href="https://github.com/fluttercommunity/flutter_launcher_icons"> flutter_launcher_icons </a> for icon regeneration
+  - Link to the original game https://github.com/uberspot/2048/tree/7986ea0432fc9fd6634dfeaff3b966ecb7aa78de
 
 ## Screenshots
 
